@@ -1,0 +1,150 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.dribbble.com/players/simplebits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 26 Mar 2015 09:40:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 884ea47e-16b1-4c28-9676-0c7833994c43
+      X-Runtime:
+      - '0.023904'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":39091,"draftees_count":184,"likes_count":38203,"likes_received_count":28738,"comments_count":2408,"comments_received_count":3495,"rebounds_count":34,"rebounds_received_count":495,"url":"http://dribbble.com/simplebits","avatar_url":"https://d13yacurqjgara.cloudfront.net/users/1/avatars/normal/4161c529fb7fe8d539bb71f73527c0aa.jpg?1424749681","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":234,"following_count":1798,"created_at":"2009/07/07
+        21:51:22 -0400"}'
+    http_version: 
+  recorded_at: Thu, 26 Mar 2015 09:40:03 GMT
+- request:
+    method: get
+    uri: http://api.dribbble.com/players/simplebits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 26 Mar 2015 10:07:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5b1fda03-5e6f-4fed-9e0c-fc29782e9381
+      X-Runtime:
+      - '0.040720'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":39093,"draftees_count":184,"likes_count":38203,"likes_received_count":28741,"comments_count":2408,"comments_received_count":3495,"rebounds_count":34,"rebounds_received_count":495,"url":"http://dribbble.com/simplebits","avatar_url":"https://d13yacurqjgara.cloudfront.net/users/1/avatars/normal/4161c529fb7fe8d539bb71f73527c0aa.jpg?1424749681","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":234,"following_count":1798,"created_at":"2009/07/07
+        21:51:22 -0400"}'
+    http_version: 
+  recorded_at: Thu, 26 Mar 2015 10:07:49 GMT
+- request:
+    method: get
+    uri: http://api.dribbble.com/players/simplebits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 26 Mar 2015 10:07:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 005eace6-dca1-4e6f-b22e-e0964488b631
+      X-Runtime:
+      - '0.023615'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":39093,"draftees_count":184,"likes_count":38203,"likes_received_count":28741,"comments_count":2408,"comments_received_count":3495,"rebounds_count":34,"rebounds_received_count":495,"url":"http://dribbble.com/simplebits","avatar_url":"https://d13yacurqjgara.cloudfront.net/users/1/avatars/normal/4161c529fb7fe8d539bb71f73527c0aa.jpg?1424749681","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":234,"following_count":1798,"created_at":"2009/07/07
+        21:51:22 -0400"}'
+    http_version: 
+  recorded_at: Thu, 26 Mar 2015 10:07:49 GMT
+recorded_with: VCR 2.9.3
